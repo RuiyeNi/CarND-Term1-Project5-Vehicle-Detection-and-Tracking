@@ -48,7 +48,7 @@ I used grid search to test different combinations of kernals, C values, and gamm
 ### Sliding Window Search
 
 #### 1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
-The search approach was based upon extracting HOG featuers of the whole image scaled at different ratios. Here, I used 5 different scales ranging from 1.5 to 2 with equal step interval. This set of scales produced a classifier with the best accuracy among all the tested combinations. The code is in `cell 17` (single image processing) and `cell 11` (video processing).
+The search approach was based upon extracting HOG features of the whole image scaled at different ratios. Here, I used 5 different scales ranging from 1.5 to 2 with equal step interval. This set of scales produced a classifier with the best accuracy among all the tested combinations. The code is in `cell 17` (single image processing) and `cell 11` (video processing).
 
 
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
